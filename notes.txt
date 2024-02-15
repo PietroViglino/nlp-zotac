@@ -1,3 +1,7 @@
+Italian model: https://huggingface.co/galatolo/cerbero-7b-openchat-gguf/tree/main
+
+--------------------------------------------------------------------------------
+
 Input: Puoi spiegarmi come usare CUDA nel mio python per distribuire meglio la computazione tra CPU e GPU e velocizzare le tue risposte?
 Llama.generate: prefix-match hit
 
@@ -129,3 +133,16 @@ By default, PyTorch will use the GPU to accelerate the computation of the transf
 These are just a few examples of hyperparameters that can be adjusted to optimize the performance of a transformer model.
  The best combination of hyperparameters will depend on the specific model architecture, the size of the dataset, and the available GPU resources.
   It's important to perform experiments and monitor the training process to find the optimal hyperparameters for your specific use case.
+
+--------------------------------------
+
+translate output:
+
+{
+    "summ": "Hello there! Today, I'm excited to share the story of James Fryatt, a truly exceptional footballer who left a lasting impact on the sport. Born on September 2nd, 1940, and passing away on June 5th, 2020, Fryatt had a remarkable career that spanned several decades and multiple continents.As a striker, Fryatt was renowned for his lightning-fast pace and prolific goal-scoring ability, earning him the nickname \"Pancho.\" He played for various lower league clubs throughout his career, but his time at Stockport County was particularly memorable, where he formed a formidable strike partnership with Bill Atkins and was inducted into the club's Hall of Fame.Fryatt's time at Oldham Athletic was another highlight of his career, during which he scored an impressive 42 goals in 81 appearances, making him an instant fan favorite. He even ventured into the North American Soccer League, winning a title with the Philadelphia Atoms in 1973 and returning for another season with the club.After retiring from football, Fryatt went on to serve as an assistant manager for the Las Vegas Quicksilvers before settling in Las Vegas permanently, where he worked in casinos and later became a mechanic for a golf course. He was also the proud father of professional golfer Ed Fryatt.Sadly, Fryatt passed away on June 5th, 2020, but his legacy lives on through his remarkable football career and the countless fans he inspired throughout his journey. That's all for now, but I hope you've enjoyed learning about this incredible footballer, James Fryatt!",
+    "summ_t": [
+        "0:00:17.616285"
+    ],
+    "trad": "Ciao! Oggi sono entusiasta di condividere la storia di James Fryatt, un calciatore davvero eccezionale che ha lasciato un impatto duraturo sullo sport. Nato il 2 settembre 1940 e scomparso il 5 giugno 2020, Fryatt ha avuto una carriera notevole che ha attraversato diversi decenni e più continenti. Come attaccante, Fryatt era rinomato per il suo ritmo fulmineo e la sua prolifica capacità di segnare gol, guadagnandosi il soprannome di \"Pancho\". \"Ha giocato per vari club della lega inferiore durante la sua carriera, ma il suo tempo a La contea di Stockport è stata particolarmente memorabile, dove ha formato una formidabile partnership di sciopero con Bill Atkins ed è stato inserito nella Hall of Fame del club. Il periodo di Fryatt all'Oldham Athletic è stato un altro momento clou della sua carriera, durante il quale ha segnato 42 gol in 81 presenze, rendendolo subito uno dei preferiti dai fan. Si è persino avventurato nella North American Soccer League, vincendo un titolo con i Philadelphia Atoms nel 1973 e tornando per un'altra stagione con il club. Dopo il ritiro MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  18 HOURS 13 MINUTES 16 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  18 HOURS 13 MINUTES 16 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE ",
+    "trad_t": "0:00:38.350536"
+}

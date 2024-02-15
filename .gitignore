@@ -1,2 +1,4 @@
-LLM/
-.venv/
+LLM/*
+.venv
+riassunti/*
+summaries/*
